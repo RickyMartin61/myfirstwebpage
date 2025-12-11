@@ -132,7 +132,7 @@
             margin-bottom: 50px;
             gap: 20px;
             background: lightgray;
-            flex-direction: row;
+        
         }
 
         .exercise-text {
@@ -163,13 +163,16 @@
 
         @media (max-width: 800px) {
             .exercise-box {
-                flex-direction: column;
-                text-align: center;
+                flex-direction: row;
+                text-align: wrap;
             }
 
-            .exercise-text, 
+            .exercise-text {
+                width: 60%;
+            }
+                
             .exercise-img {
-                width: 100%;
+                width: 35%;
             }
 
             nav {
