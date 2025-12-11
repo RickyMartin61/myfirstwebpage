@@ -160,7 +160,7 @@
             margin-top: 40px;
         }
 
-        @media (max-width: 900px) {
+        @media (max-width: 800px) {
             .exercise-box {
                 flex-direction: column;
                 text-align: center;
