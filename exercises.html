@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise & Nutrition Tips</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;        
+            font-family: Arial, sans-serif;
+            background: lightgray;
+        }
+
+        header {
+            background: #129cff;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        nav {
+            background: #129cff;
+            display: flex;
+            justify-content: center;
+            gap: 80px;
+            padding: 15px 0;
+        }
+
+        nav a {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .section {
+            padding: 40px 20px;
+            max-width: 1100px;
+            margin: auto;
+            background: lightgray;
+        }
+
+        .section h1 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+
+        .introduction-text {
+            max-width: 900px;
+            margin: 0 auto 40px auto;
+            text-align: center;
+            line-height: 1.6;
+            font-size: 17px;
+        }
+
+        .exercise-box {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 50px;
+            gap: 20px;
+            background: lightgray;
+        }
+
+        .exercise-text {
+            width: 60%;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .exercise-text h2 {
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        .exerciseimg {
+            width: 40%;
+            border-radius: 6px;
+        }
+
+        footer {
+            background: #129cff;
+            color: white;
+            text-align: center;
+            padding: 22px;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 800px) {
+            .exercise-box {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .exercise-text, 
+            .exercise-img {
+                width: 100%;
+            }
+
+            nav {
+                gap: 30px;
+            }
+
+            nav a {
+                font-size: 18px;
+            }
+        } 
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Exercise & Nutrition Tips</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="exercises.html">Exercises</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="section">
+
+        <h1>Start with the Basics</h1>
+
+        <p class="introduction-text">
+            This section provides beginner-friendly exercises with proper form tips, workout plans,
+            and nutritional advice to help you get started safely and effectively. No gym? No problem —
+            many exercises can be done at home!
+        </p>
+
+        <div class="exercise-box">
+            <div class="exercise-text">
+                <h2>🏋️‍♀️ What is a Back Workout?</h2>
+                <p>
+                    A back workout strengthens the muscles along your spine and upper back,
+                    including the lats, traps, and rhomboids. These muscles help you with pulling,
+                    lifting, and posture. Simple exercises like rows, reverse flys, and supermans 
+                    can improve strength and reduce back pain — even at home!
+                </p>
+            </div>
+            <img class="exercise-img" src="back.jpeg" alt="Back Workout">
+        </div>
+
+        <div class="exercise-box">
+            <div class="exercise-text">
+                <h2>🏋️ What is a Chest Workout?</h2>
+                <p>
+                    A chest workout targets the muscles in your chest, mainly the pectorals.
+                    These muscles help you push, lift, and support your upper body. Chest exercises
+                    like push-ups, chest presses, and dumbbell flys build strength, improve posture,
+                    and help shape your upper body. You can start with simple bodyweight moves at home —
+                    no equipment needed!
+                </p>
+            </div>
+            <img class="exercise-img" src="https://i.ibb.co/tDLZz4W/chest.jpg" alt="Chest Workout">
+        </div>
+
+        <h1>Arm Workouts</h1>
+
+        <div class="exercise-box">
+            <div class="exercise-text">
+                <h2>💪 What is a Bicep Workout?</h2>
+                <p>
+                    A bicep workout strengthens the muscles at the front of your upper arms. 
+                    These muscles help you lift, pull, and carry things in daily life. 
+                    Exercises like curls build strength and tone your arms using simple 
+                    movements — dumbbells, resistance bands, or even water bottles work!
+                </p>
+            </div>
+            <img class="exercise-img" src="https://i.ibb.co/6JNr5Cw/bicep.jpg" alt="Bicep Workout">
+        </div>
+
+        <div class="exercise-box">
+            <div class="exercise-text">
+                <h2>💪 What is a Tricep Workout?</h2>
+                <p>
+                    Tricep workouts focus on the muscles at the back of your upper arms. 
+                    These muscles help you push and extend your arms. Exercises like dips, 
+                    extensions, and close-grip push-ups build strength and help tone the 
+                    back of your arms — no gym required.
+                </p>
+            </div>
+            <img class="exercise-img" src="https://i.ibb.co/vk6JWZG/tricep.jpg" alt="Tricep Workout">
+        </div>
+
+        <div class="exercise-box">
+            <div class="exercise-text">
+                <h2>💪 What is a Shoulder Workout?</h2>
+                <p>
+                    Shoulder workouts target the deltoid muscles responsible for arm movement 
+                    and stability. Strong shoulders help with lifting and carrying in everyday life. 
+                    Beginners can start with shoulder presses, front raises, and arm circles to build 
+                    strength and improve mobility.
+                </p>
+            </div>
+            <img class="exercise-img" src="https://i.ibb.co/V3qKrjL/shoulder.jpg" alt="Shoulder Workout">
+        </div>
+
+        <h1>Leg Workout & Nutrition Tips</h1>
+
+        <div class="exercise-box">
+            <div class="exercise-text">
+                <h2>🦵 What is a Leg Workout?</h2>
+                <p>
+                    Leg workouts train the major lower body muscles: quads, hamstrings, glutes, 
+                    and calves. These muscles support walking, running, and balance. Squats, 
+                    lunges, and step-ups are great beginner exercises you can do anywhere — 
+                    with or without weights.
+                </p>
+            </div>
+            <img class="exercise-img" src="https://i.ibb.co/6YP3VY9/leg.jpg" alt="Leg Workout">
+        </div>
+
+        <h1>Nutrition Tips</h1>
+
+        <div class="exercise-box">
+            <div class="exercise-text">
+                <h2>✔ Carbs before your workout</h2>
+                <p>
+                    Carbohydrates are your body’s main source of energy. Eating carbs before 
+                    exercising helps fuel your muscles and gives you the stamina to perform 
+                    at your best. Without enough carbs, you may feel tired or weak during 
+                    your workout.
+                </p>
+            </div>
+            <img class="exercise-img" src="https://i.ibb.co/KjMZDm4/carbs.jpg" alt="Carbs">
+        </div>
+
+        <div class="exercise-box">
+            <div class="exercise-text">
+                <h2>✔ Protein after your workout</h2>
+                <p>
+                    Protein is essential for muscle recovery and repair. After exercising, 
+                    your muscles experience micro-tears. Protein helps rebuild these muscles, 
+                    making them stronger and promoting growth — perfect for beginners trying 
+                    to gain strength.
+                </p>
+            </div>
+            <img class="exercise-img" src="https://i.ibb.co/hMNYmPr/protein.jpg" alt="Protein">
+        </div>
+
+    </div>
+
+    <footer>
+        © 2025 Beginner Fitness Guide
+    </footer>
+
+</body>
+</html>
