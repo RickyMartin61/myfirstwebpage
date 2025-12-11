@@ -135,9 +135,8 @@ nav a {
 
 .exercise-img {
     width: 50%;
-    max-width: 400px;
+    max-width: 200px;
     height: auto;
-    object-fit: cover;
     border-radius: 6px;
 }
 
