@@ -194,18 +194,19 @@ margin-top:20px;
 nav a {
 color:white;
 text-decoration:none;
-font-size:22px;
+font-size:20px;
 margin:0 20px;
 font-weight:bold;
 }
 
 .container {
 background:white;
-width:70%;
+width:90%;
+        max-width:900px;
 margin:40px auto;
-padding:40px;
+padding:30px;
 text-align:center;
-border-radius:3px;
+border-radius:8px;
 }
 
 input {
