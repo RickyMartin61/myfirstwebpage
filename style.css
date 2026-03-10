@@ -173,6 +173,7 @@
 
 
 /* Page 3 css */
+                
 body {
 margin:0;
 font-family:Arial;
@@ -183,18 +184,18 @@ header {
 background:#129cff;
 color:white;
 text-align:center;
-padding:50px 0;
+padding:40px 0;
 }
 
 nav {
-margin-top:30px;
+margin-top:20px;
 }
 
 nav a {
 color:white;
 text-decoration:none;
 font-size:22px;
-margin:0 60px;
+margin:0 20px;
 font-weight:bold;
 }
 
