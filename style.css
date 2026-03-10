@@ -173,44 +173,44 @@
 
 
 /* Page 3 css */
-                
-body {
+
+body{
 margin:0;
 font-family:Arial;
 background:#d3d3d3;
 }
 
-header {
+header{
 background:#129cff;
 color:white;
 text-align:center;
-padding:40px 0;
+padding:50px 0;
 }
 
-nav {
+nav{
 margin-top:20px;
 }
 
-nav a {
+nav a{
 color:white;
 text-decoration:none;
-font-size:20px;
-margin:0 20px;
+font-size:22px;
+margin:0 40px;
 font-weight:bold;
 }
 
-.container {
+.container{
 background:white;
-width:90%;
-        max-width:900px;
+width:70%;
+max-width:850px;
 margin:40px auto;
-padding:30px;
+padding:40px;
 text-align:center;
-border-radius:8px;
+border-radius:5px;
 }
 
-input {
-width:70%;
+input{
+width:65%;
 padding:12px;
 margin:10px;
 font-size:16px;
@@ -218,8 +218,8 @@ border:1px solid #999;
 border-radius:6px;
 }
 
-textarea {
-width:70%;
+textarea{
+width:65%;
 height:120px;
 padding:12px;
 margin:10px;
@@ -228,17 +228,7 @@ border:1px solid #999;
 border-radius:6px;
 }
 
-button {
-background:#129cff;
-color:white;
-border:none;
-padding:12px 25px;
-font-size:16px;
-cursor:pointer;
-border-radius:3px;
-}
-
-footer {
+footer{
 background:#129cff;
 color:white;
 text-align:center;
@@ -246,3 +236,7 @@ padding:30px;
 margin-top:50px;
 font-size:18px;
 }
+                
+
+
+
